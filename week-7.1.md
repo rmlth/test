@@ -16,6 +16,7 @@ Linux 进入目录的方式有绝对路径和相对路径两种。
 而 绝对路径 是一个以根目录 / 为起点的完整路径，如： /home/shiyanlou/Code，可以类比 Windows 上的 C:\Users\电脑用户名\Desktop。
 
 使用 cp 命令（Copy）复制文件到指定目录下，比如要把 hello 文件复制到 one/two 这个目录下：
+` rm -R\r`是递归删除，退出文件夹返回home后可以直接删除文件夹
 
 cp hello one/two/
 
