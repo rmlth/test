@@ -39,7 +39,7 @@ def detect_target_rectangle(image_path):#检测目标矩形
 
     return image
 
-image_path = '3.png'
+image_path = '1.png'
 result_image = detect_target_rectangle(image_path)
 cv2.namedWindow('Result1', cv2.WINDOW_NORMAL)
 cv2.imshow('Result1', result_image)

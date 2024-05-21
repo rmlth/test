@@ -13,12 +13,12 @@ def calculate_intersection(vertices):
     返回值:
     如果存在交点, 返回交点的坐标(x, y)；如果不存在交点, 返回None。
     """
-    x1, y1 = vertices[0]
-    x2, y2 = vertices[2]
-    x3, y3 = vertices[1]
-    x4, y4 = vertices[3]
+    x1, y1 = vertices[0] 
+    x2, y2 = vertices[2]  
+    x3, y3 = vertices[1]   
+    x4, y4 = vertices[3] 
 
-    dx1, dy1 = x2 - x1, y2 - y1
+    dx1, dy1 = x2 - x1, y2 - y1   
     dx2, dy2 = x4 - x3, y4 - y3
 
     det = dx1 * dy2 - dx2 * dy1
@@ -448,7 +448,7 @@ if __name__ == "__main__":
     print("开始")
     
     # 读取图像
-    img = cv2.imread('2.png')
+    img = cv2.imread('week_9/code/src/2.png')
     
     # 预处理图像，获取轮廓
     contours = preprocess_image(img)
@@ -479,6 +479,6 @@ if __name__ == "__main__":
 
     # 显示处理后的图像，并保存
     cv2.imshow("final", img)
-    cv2.imwrite("week_9/code/out/2.1out.png", img)
+    #cv2.imwrite("../out/x-out.jpg", img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
