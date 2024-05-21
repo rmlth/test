@@ -6,8 +6,5 @@ wsl --install
 ``` bash
 sudo sed -i 's/http:/https:/g' /etc/apt/sources.list #中科大软件源
 ```
-
-1. 卸载wsl
-``` bash
-wsl --unregister Ubuntu-20.04
-```
+lingma
+sfgsfgsdfgs
