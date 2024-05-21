@@ -6,6 +6,3 @@ wsl --install
 ``` bash
 sudo sed -i 's/http:/https:/g' /etc/apt/sources.list #中科大软件源
 ```
-lingma
-sfgsfgsdfgs
-15415415454
