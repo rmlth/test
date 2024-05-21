@@ -4,7 +4,7 @@ lower_red = np.array([156, 43, 46])
 upper_red = np.array([180, 255, 255])
 lower_green = np.array([35, 43, 46])
 upper_green = np.array([77, 255, 255])
-image = cv2.imread ('2.png')
+image = cv2.imread ('week_9\code\src\2.png')
 hsv_img = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     # 分割红色区域
 red_mask = cv2.inRange(hsv_img, lower_red, upper_red)

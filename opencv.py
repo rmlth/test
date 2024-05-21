@@ -51,7 +51,7 @@ def detect_points(image):
 
 if __name__ == '__main__':
     # 读取图像
-    src_image = cv2.imread('1.png')
+    src_image = cv2.imread('week_9\code\src\2.png')
     # 调用函数进行检测
     result1 = detect_lines(src_image)
 
